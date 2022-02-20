@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #f5f5f5;
-    padding: 2rem 6rem;
+    padding: 2rem 12rem;
   }
   header h3 {
     font-weight: 700;
@@ -32,7 +32,7 @@
     grid-template-columns: 70% 30%;
     column-gap: 0.5rem;
     background-color: #f5f5f5;
-    padding: 2rem 6rem;
+    padding: 2rem 12rem;
   }
   #profile-h1 {
     font-size: 52px;
@@ -49,14 +49,13 @@
     margin-right: 1rem;
   }
   #profile-img {
-    width: 368px;
-    height: 368px;
-    padding: 1rem;
+    width: 23rem;
+    height: 23rem;
   }
 
   #about-me-section {
     background-color: #eaf2fd;
-    padding: 5rem;
+    padding: 2rem 12rem;
   }
   #about-me-h2 {
     font-size: 32px;
@@ -125,7 +124,7 @@
     margin: auto;
   }
   #label-div{
-    padding: 0rem 6rem;
+    padding: 0rem 6rem 3rem 6rem;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
@@ -134,6 +133,50 @@
     font-size: 22px;
     font-weight: 700;
 }
+#experience-section{
+  padding:2rem 12rem;
+  background-color: #F5F5F5;
+  display: grid;
+}
+
+#experience-section div{
+  padding-top: 2rem;
+  display: inline-block;
+  
+}
+#div-right{
+  float: right;
+}
+#buttons {
+  position: relative;
+  bottom: 12rem; margin: 1rem;
+ 
+}
+#buttons h3{
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+#button-repo{
+  margin: 0.5rem 0rem;
+  border: 1px solid #2A7AE4;
+  box-sizing: border-box;
+  color:#2A7AE4;
+  width:116px;
+  height:51px;
+}
+#button-demo{
+  background-color: #2A7AE4;
+  margin: 0.5rem 0.5rem;
+  border: 1px solid #2A7AE4;
+  box-sizing: border-box;
+  font-size: 16px;
+  color:white;
+  width:116px;
+  height:51px;
+}
+
 }
 /*TABLET******************************************************************************/
 @media only screen and (max-width: 768px) {
