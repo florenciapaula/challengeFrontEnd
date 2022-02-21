@@ -7,7 +7,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Landing Page</title>
-    <link rel="stylesheet" href="style-home.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +24,8 @@
 
     <header id="header">
       <h3 id="header-font">
-        <img id="header-img" src="images/estrellitas.png" /> Fulana de tal
+        <img id="header-img" src="images/estrellitas.png" />
+        Fulana de tal
       </h3>
 
       <nav id="header-nav">
@@ -152,6 +152,7 @@
     <!--SECTION 4 FORMACION ACADEMICA-->
 
     <section id="education-section">
+      
       <h2 id="titulos-h2">Formacion Academica</h2>
 
       <div id="education-div">
@@ -248,31 +249,34 @@
     <!--SECTION 6 FORMULARIO-->
 
     <section id="contact-section">
-
-      <div>
+      <div id="contact-img">
         <img id="contact-img" src="images/contacto.png" alt="" />
       </div>
 
       <div>
         <form>
           <h2 id="contact-h2">Contacto</h2>
+          <p>¿Quieres contactarme?</p>
+
           <p>
-            ¿Quieres contactarme? Complete el siguiente formulario y me pondré
-            en contacto con usted lo antes posible.
+            Complete el siguiente formulario y me pondré en contacto con usted
+            lo antes posible.
           </p>
 
-          <input placeholder="Nombre" type="text" /><br>
-          <input placeholder="E-mail" id="mail" type="text" /><br>
-          <input placeholder="Asunto" type="text" /><br>
+          <input placeholder="Nombre" type="text" /><br />
+          <input placeholder="E-mail" id="mail" type="text" /><br />
+          <input placeholder="Asunto" type="text" /><br />
           <textarea placeholder="Mensaje" cols="30" rows="10"></textarea>
           <button>Enviar mensaje</button>
         </form>
       </div>
-
     </section>
 
     <!--FOOTER-->
 
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <p>Desarrollado por Fulana de Tal</p>
+      <p>2022</p>
+    </footer>
   </body>
 </html>
