@@ -21,6 +21,7 @@
   }
   header nav {
     font-weight: 500;
+    padding-top: 0.5rem;
   }
   header nav a {
     margin-right: 1rem;
@@ -110,31 +111,28 @@
     padding: 2rem 6rem;
     background-color: #eaf2fd;
   }
-  #education-div {
-    padding: 4rem 6rem 1rem 6rem;
-    display: grid;
+  #education-div{
+    padding: 2rem 6rem;
+    display:grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
   }
-  #education-div div {
+  #education-div-img{
     background-color: white;
-    padding: 4rem 2rem;
+    
   }
-  #education-div div img {
-    display: block;
+  #education-div-img img{
+    display:block;
     margin: auto;
+    width: 80%;
+    padding:2rem 0rem;
   }
-  #label-div {
-    padding: 0rem 6rem 3rem 6rem;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-between;
-  }
-  #label-div p:first-child {
+  #label-div p:first-child{
+    padding:1rem 0rem;
     font-size: 22px;
     font-weight: 700;
   }
-  #experience-section {
+    #experience-section {
     padding: 2rem 10rem;
     background-color: #f5f5f5;
   }
@@ -263,7 +261,7 @@
 }
 }
 /*TABLET******************************************************************************/
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1100px) {
   body {
     width: 100%;
     font-family: "Raleway", sans-serif;
@@ -382,43 +380,37 @@
     padding: 2rem 2rem;
     background-color: #eaf2fd;
   }
-  #education-div {
-    padding: 4rem 0rem 0rem 0rem;
-    display: grid;
-    column-gap: 0.1rem;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-between;
-    height:118px;
-  }
-  #education-div div {
-    background-color: white;
+  #education-div{
     padding: 2rem 0rem;
-  }
-  #education-div div img {
-    width: 84px;
-    height: 58px;
-    display: block;
-    justify-content: space-around;
-  }
-  #label-div {
-    padding: 1rem 0rem;
-    display: grid;
-    font-size: 8px;
+    display:grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
   }
-  #label-div p:first-child {
-    font-size: 22px;
+  #education-div-img{
+    background-color: white;
+  }
+  #education-div-img img{
+    display:block;
+    margin: auto;
+    width: 50%;
+    padding:2rem 0rem;
+  }
+  #label-div p:first-child{
+    padding:1rem 0rem 0rem 0rem;
+    font-size: 16px;
     font-weight: 700;
+  }
+  #label-div p:last-child{
+    padding:0.2rem 0rem;
+    font-size: 14px;
+    font-weight: 500;
   }
   #experience-section {
     width: 100%;
     padding: 0rem 2rem;
     background-color: #f5f5f5;
   }
-  #experience-section div {
-    
-  }
+
   #div-left{
     display: flex;
     flex-direction: column;
@@ -539,7 +531,7 @@
 
 }
 /*MOBILE*******************************************************************************/
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 550px) {
   body {
     width: 100%;
     font-family: "Raleway", sans-serif;
@@ -573,7 +565,7 @@
   #profile-section {
     width: 100%;
     display: flex;
-    flex-flow: column-reverse;
+    flex-flow: column-reverse  wrap-reverse;
     background-color: #f5f5f5;
     padding: 1rem 2rem;
   }
@@ -660,37 +652,33 @@
   }
   #education-section {
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     background-color: #eaf2fd;
   }
-  #education-div {
-    padding: 4rem 0rem 0rem 0rem;
-    display: grid;
-    column-gap: 0.1rem;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-between;
-    height:118px;
-  }
-  #education-div div {
-    background-color: white;
+  #education-div{
     padding: 2rem 0rem;
-  }
-  #education-div div img {
-    width: 84px;
-    height: 58px;
-    display: block;
-    justify-content: space-around;
-  }
-  #label-div {
-    padding: 1rem 0rem;
-    display: grid;
-    font-size: 8px;
+    display:grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
   }
-  #label-div p:first-child {
-    font-size: 22px;
+  #education-div-img{
+    background-color: white;
+  }
+  #education-div-img img{
+    display:block;
+    margin: auto;
+    width: 50%;
+    padding:2rem 0rem;
+  }
+  #label-div p:first-child{
+    padding:1rem 0rem 0rem 0rem;
+    font-size: 16px;
     font-weight: 700;
+  }
+  #label-div p:last-child{
+    padding:0.2rem 0rem;
+    font-size: 14px;
+    font-weight: 500;
   }
   #experience-section {
     width: 100%;
@@ -797,7 +785,6 @@
     font-family: Raleway;
     padding-top: 1rem;
   }
-
   form button {
     background-color: #2a7ae4;
     margin-top: 2rem;
@@ -812,8 +799,7 @@
     display: block;
   }
 #footer{
-  text-align: center;
-  padding: 2rem 2rem;
+  width: 100%;
+  padding: 1rem 1rem 1rem 1rem;
 }
-
 }
