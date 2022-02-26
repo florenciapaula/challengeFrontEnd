@@ -191,6 +191,8 @@
     background-color: #eaf2fd;
   }
   #contact-img {
+    background-image: url("images/contacto.png");
+    background-size: cover;
     width: 90%;
     height: auto;
   }
@@ -208,6 +210,10 @@
     margin-top: 2rem;
     width: 90%;
     height: 133px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: #c8c8c8 1px solid;
   }
   form input {
     border-top: none;
@@ -215,6 +221,11 @@
     border-right: none;
     border-bottom: #c8c8c8 1px solid;
   }
+
+ form input:focus, form textarea:focus {
+    outline: none;
+    border-bottom-color: #2A7AE4;
+ }
 
   form textarea {
     border-top: none;
